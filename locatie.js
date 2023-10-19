@@ -12,7 +12,7 @@ var latlon = position.coords.latitude + "," +
 position.coords.longitude;
  var img_url = 
 "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+
-"&zoom=14&size=400x300&key=YOUR_KEY";
+"&zoom=14&size=400x300&key=AIzaSyCTETwJLdrqSdWpG7c0Jf6jrqjUwJLQaAQ";
  document.getElementById("map").innerHTML = "<img 
 src='"+img_url+"'>";
 }
